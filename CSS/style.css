@@ -1,0 +1,274 @@
+:root {
+  --primary: #ec5242;
+  --secondary: #272a31;
+  --tertiary: #d3d3d3;
+  --background: #f7f7f9;
+  --dark-text: #515151;
+  --bg-white: #fff;
+  --color-white: #fff;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: #f7f7f9;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url(../font/Cocogoose.otf);
+  font-weight: bold;
+}
+
+.ff-main {
+  font-family: "Cocogoose", sans-serif;
+}
+
+/* .bg-color {
+  background-color: var(--background);
+}
+
+.tertiary-color {
+  color: var(--tertiary);
+}
+
+.primary-color {
+  color: var(--primary);
+}
+
+.secondry-color {
+  color: var(--secondary);
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+
+.color-white-text {
+  color: var(--color-white);
+}
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.color-dark-text {
+  color: var(--dark-text);
+}
+
+.bg-dark {
+  background-color: var(--secondary);
+}
+
+.color-2 {
+  color: #d93a29;
+} */
+
+header {
+  position: fixed;
+  top: 0;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+}
+
+.first-navbar,
+.second-navbar {
+  display: none;
+}
+
+.menu-toggle {
+  border: none;
+  width: 3.75rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  position: fixed;
+}
+
+.bars-fw1 {
+  font-weight: 900;
+}
+
+.bars-fw1-bold {
+    font-size: 1.5rem;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.5rem 0;
+  background-image: url(../images/mobile_bg.png);
+  background-size: cover;
+  width: 100%;
+}
+
+.headline-content {
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.primary-header {
+  margin: 0.75rem 0;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #ec5242;
+}
+
+.header-1 {
+  font-size: 2.125rem;
+  line-height: 3.25rem;
+}
+
+.header-2 {
+  line-height: 1.875rem;
+  font-size: 1.25rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.main-header {
+  background-image: url(../images/orange.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: 100%;
+}
+
+.box-text {
+  border: 4px solid #fff;
+  padding: 0.8rem;
+  color: #515151;
+  padding-bottom: 0;
+}
+
+.date-header {
+    padding-top: 1.2rem;
+    color: #515151;
+}
+
+.time,
+.time-text {
+    color: #515151;
+    padding: 0;
+}
+
+.program {
+    background-color: #272a31;
+    color: #fff;
+    background-image: url(../images/fill-bg.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem 0.75rem;
+}
+
+.program-heading {
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+.line {
+    width: 1.78125rem;
+    align-self: center;
+    margin: 0;
+    height: 0.125rem;
+    background: #ec5242;
+}
+
+.program-list-container {
+    display: grid;
+    gap: 0.75rem;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.program-box {
+    display: flex;
+    background: rgb(255, 255, 255, 0.1);
+    margin: 0;
+    padding: 0;
+}
+
+.program-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: left;
+  padding: 1rem;
+}
+
+.program-text {
+    font-size: 0.723rem;
+}
+
+.program-title {
+    color: #ec5242;
+}
+
+.program-btn {
+    background: #ec5242;
+    border: none;
+    padding: 1.4rem;
+    color: #fff;
+}
+
+.see-more {
+    display: none;
+}
+
+.featured-speakers {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem 0.75rem;
+}
+
+.partners {
+    background: #272a31;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+  gap: 1rem;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.partner-logo img {
+    width: 30%;
+    filter: grayscale(100%) contrast(30%);
+}
+
+.footer-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.footer-container img {
+    width: 50%;
+    padding-top: 1.2rem;
+    /* filter: grayscale(100%) contrast(30%); */
+}
+
+.footer-desc {
+    padding-top: 1.1rem;
+}
