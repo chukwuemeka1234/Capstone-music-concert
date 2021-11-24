@@ -32,46 +32,6 @@ body {
   font-family: "Cocogoose", sans-serif;
 }
 
-/* .bg-color {
-  background-color: var(--background);
-}
-
-.tertiary-color {
-  color: var(--tertiary);
-}
-
-.primary-color {
-  color: var(--primary);
-}
-
-.secondry-color {
-  color: var(--secondary);
-}
-
-.primary-bg {
-  background-color: var(--primary);
-}
-
-.color-white-text {
-  color: var(--color-white);
-}
-
-.bg-white {
-  background-color: var(--color-white);
-}
-
-.color-dark-text {
-  color: var(--dark-text);
-}
-
-.bg-dark {
-  background-color: var(--secondary);
-}
-
-.color-2 {
-  color: #d93a29;
-} */
-
 header {
   position: fixed;
   top: 0;
@@ -91,6 +51,7 @@ header {
   height: 3rem;
   font-size: 1.5rem;
   position: fixed;
+  background: none;
 }
 
 .bars-fw1 {
