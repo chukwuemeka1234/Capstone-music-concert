@@ -10,6 +10,8 @@
 
 * {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -125,6 +127,7 @@ header {
 .header-1 {
   font-size: 2.125rem;
   line-height: 3.25rem;
+  margin-top: 0;
 }
 
 .header-2 {
@@ -146,7 +149,6 @@ header {
   border: 4px solid #fff;
   padding: 0.8rem;
   color: #515151;
-  padding-bottom: 0;
 }
 
 .date-header {
@@ -158,6 +160,122 @@ header {
 .time-text {
     color: #515151;
     padding: 0;
+}
+
+/* About page */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  background-image: url(../images/main_big.png);
+  background-repeat: no-repeat;
+  margin-top: 1.75rem;
+}
+
+.align {
+    text-align: center;
+    color: #ec5242;
+    padding-bottom: 0.834rem;
+}
+
+.text-desc-box {
+    background: #fff;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    color: #515151;
+    margin-bottom: 1.9rem;
+    padding:0.5rem;
+}
+
+.small-desc {
+    color: #515151;
+    font-size: 1.05rem;
+}
+
+.heading-text {
+    text-align: center;
+}
+
+.desc-email {
+    color: #515151;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.feature {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.feature-logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2.532rem;
+}
+
+.logo-design {
+    text-align: center;
+    padding: 1.58rem;
+}
+
+.muson-logo img {
+    width: 20%;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    padding: 1.2rem 5.5rem;
+}
+
+.past-activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+    border-top: 1px solid #d3d3d3;
+}
+
+.past-heading {
+    padding-top: 2rem;
+}
+
+.past-text {
+    font-size: 0.834rem;
+}
+
+.past-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1.25rem;
+}
+
+.card {
+    background: #ec5242;
+    position: relative;
+    list-style-type: none;
+}
+
+.card img {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.card-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
 }
 
 .program {
@@ -178,7 +296,7 @@ header {
 .line {
     width: 1.78125rem;
     align-self: center;
-    margin: 0;
+    margin: 0.84rem;
     height: 0.125rem;
     background: #ec5242;
 }
@@ -193,8 +311,7 @@ header {
 .program-box {
     display: flex;
     background: rgb(255, 255, 255, 0.1);
-    margin: 0;
-    padding: 0;
+    width: 98%;
 }
 
 .program-item {
@@ -212,6 +329,7 @@ header {
 
 .program-title {
     color: #ec5242;
+    font-size: 0.854rem;
 }
 
 .program-btn {
@@ -238,6 +356,10 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.partners-heading {
+    padding-top: 1.343rem;
 }
 
 .partner-logo {
