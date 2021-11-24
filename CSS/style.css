@@ -530,14 +530,10 @@ header {
     display: flex;
     flex-direction: row;
     width: 90%;
-   
+    padding-bottom: 4.5rem;
   }
 
   .card {
-    width: 100%;
-  }
-
-  .card img {
     width: 100%;
   }
   
