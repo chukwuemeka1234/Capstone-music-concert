@@ -349,7 +349,6 @@ header {
 .footer-container img {
     width: 50%;
     padding-top: 1.2rem;
-    /* filter: grayscale(100%) contrast(30%); */
 }
 
 .footer-desc {
