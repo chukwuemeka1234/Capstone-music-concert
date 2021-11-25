@@ -22,7 +22,7 @@ This project is meant to test student ability's on being able to put together al
 - CSS
 - JAVASCRIPT
 
-Here's a [video ]  of the project description.
+Here's a [video ](https://www.loom.com/share/9d1eab9b4267485eb7f22d168974c471)  of the project description.
 
 ## Live Demo
 
