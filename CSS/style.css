@@ -298,13 +298,6 @@ header {
   display: none;
 }
 
-.featured-speakers {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 1.5rem 0.75rem;
-}
-
 .partners {
   background: #272a31;
   color: #fff;
@@ -585,7 +578,6 @@ header {
   align-self: center;
   background-color: #d3d3d3;
   width: 1.78125rem;
-  align-self: center;
   margin: 0.75rem 0;
   height: 0.125rem;
 }
@@ -631,5 +623,3 @@ header {
 .featured-speakers .speaker-name {
   font-size: 0.956rem;
 }
-
-
