@@ -54,7 +54,9 @@ To get a local copy up and running:
 - The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 - Project from [Microverse](https://bit.ly/MicroverseTN) html & css module
-- Images inspired by this [All avatar images](https://pravatar.cc/images) & [Google search](https://google.com)
+- Images inspired by this [All avatar images](https://pravatar.cc/images), [UNT](https://musiced.music.unt.edu/lecture-series), & [UBC Music](https://music.ubc.ca/blog/2021/7/5/introducing-dr-kofi-gbolonyo-lecturer-in-african-music-and-african-studies)
+
+- Topic inspired from [Muson 25th festival](https://muson.org/festival-2021/)
 
 ## 🤝 Contributing
 
