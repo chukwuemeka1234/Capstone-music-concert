@@ -1,75 +1,68 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# html-css-js-capstone-project
 
-> One paragraph statement about the project.
+This is my final project for HTML & CSS MODULE ONE from the microverse curriculum.
 
-![screenshot](./app_screenshot.png)
+<p align="center">
+  <img src="./images/screenshot-1.PNG"/>
+</p>
 
-Additional description about the project and its features.
+<hr>
+
+<p align="center">
+  <img src="./images/Screenshot-2.PNG"/>
+</p>
+
+This project is meant to test student ability's on being able to put together all that they have learnt in a module to ensure they mastered it well.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JAVASCRIPT
+
+Here's a [video ]  of the project description.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://chukwuemeka1234.github.io/Capstone-music-concert/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running:
 
+1. Clone this repository or download the Zip folder:
 
-To get a local copy up and running follow these simple example steps.
+**``git clone https://github.com/chukwuemeka1234/Capstone-music-concert.git``**
 
-### Prerequisites
+2. Navigate to the location of the folder in your machine:
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+**``you@your-Pc-name:~$ cd <folder>``**
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@chukwuemeka1234](https://github.com/chukwuemeka1234)
+- Twitter: [@avc_victor](https://twitter.com/@avc_victor)
+- LinkedIn: [ani-chukwuemeka](https://linkedin.com/in/ani-chukwuemeka-a65421199/)
 
-👤 **Author2**
+## Credits
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+
+- Project from [Microverse](https://bit.ly/MicroverseTN) html & css module
+- Images inspired by this [All avatar images](https://pravatar.cc/images) & [Google search](https://google.com)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
