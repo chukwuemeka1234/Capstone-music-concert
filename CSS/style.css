@@ -439,7 +439,7 @@ header {
   }
 
   .headline-content {
-    padding: 5.0rem 8.5rem;
+    padding: 5rem 8.5rem;
   }
 
   .header-1 {
@@ -514,6 +514,7 @@ header {
   .logo-border img {
     border: 1px solid #d3d3d3;
     padding: 0.8rem 8.3rem;
+    width: 10%;
   }
 
   .card-container {
@@ -526,4 +527,109 @@ header {
   .card {
     width: 100%;
   }
+
+  .featured-speakers .fs-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin: 2.25rem 0;
+    list-style-type: none;
+  }
+
+  .featured-speakers {
+    padding: 5% 10%;
+  }
 }
+
+.menu-content {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #ee7f76;
+  backdrop-filter: blur(4px);
+  overflow-y: auto;
+}
+
+.menu-content .x-menu {
+  display: flex;
+  align-self: flex-end;
+  padding: 3.75rem 2.375rem;
+}
+
+.menu-content .menu-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+
+.menu-content a {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-content .x-menu:hover,
+.menu-content a:hover {
+  cursor: pointer;
+}
+
+/* feature speakers */
+.featured-speakers .break-line {
+  align-self: center;
+  background-color: #d3d3d3;
+  width: 1.78125rem;
+  align-self: center;
+  margin: 0.75rem 0;
+  height: 0.125rem;
+}
+
+.featured-speakers {
+  background-color: #fff;
+  color: #272a31;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem 0.75rem;
+}
+
+.featured-speakers .fs-container {
+  display: grid;
+  grid-auto-rows: 1fr;
+  margin: 1.5rem 0;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.featured-speakers .speaker-profile {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.featured-speakers .speaker-profile .speaker-image {
+  padding-top: 0.5rem;
+  height: 8.25rem;
+  width: 8.25rem;
+}
+
+.featured-speakers .speaker-description {
+  line-height: 1.125rem;
+  font-size: 0.875rem;
+  margin-bottom: 2.3rem;
+}
+
+.color-2 {
+  color: #ec5242;
+}
+
+.featured-speakers .speaker-name {
+  font-size: 0.956rem;
+}
+
+
