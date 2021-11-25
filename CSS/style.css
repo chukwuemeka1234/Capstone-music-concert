@@ -334,12 +334,17 @@ header {
 }
 
 .footer-container img {
-  width: 50%;
+  width: 60%;
   padding-top: 1.2rem;
+}
+
+.footer-logo-container {
+  margin-right: 2.4rem;
 }
 
 .footer-desc {
   padding-top: 1.1rem;
+  margin-left: 2.4rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -530,6 +535,19 @@ header {
 
   .featured-speakers {
     padding: 5% 10%;
+  }
+
+  .partners-hide {
+    display: none;
+  }
+
+  .dark-bg {
+    background: #272a31;
+    color: #fff;
+  }
+
+  .footer-desc {
+    font-size: 1rem;
   }
 }
 
